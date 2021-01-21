@@ -7,6 +7,7 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom';
 // Components
 import Login from './Components/Login/LoginContainer';
 import Home from './Components/Home/App';
+import Cadastro from './Components/Cadastro/CadastroContainer'
 
 ReactDOM.render(
   
@@ -18,6 +19,7 @@ ReactDOM.render(
 
         <Route path='/login' exact component={Login} />
         <Route path='/home' exact component={Home} />
+        <Route path='/cadastro' exact component={Cadastro} />
 
       </Switch>
     
