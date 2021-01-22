@@ -36,7 +36,7 @@ const CadastroView = (props) => {
 
                 <Input
 
-                    placeholder='Digite sua Senha'
+                    placeholder='Digite sua Senha!'
                     type='password'
                     style={{
                         marginBottom: 10
